@@ -14,7 +14,7 @@ There is also an executable file for windows in the repository. It is the easies
 
 ### Plot Types
 - **Vectorscope YUV**: Displays YUV color data in a vectorscope format.
-- **Vectorscope Color**: Visualizes color data in YUV space with the actual RGB values.
+- **Vectorscope Color**: Visualizes data in YUV space but pixels are displayed in RGB colors (Takes longer to generate, and is therefore not available in the continous mode)
 - **Waveform Luma**: Displays the luminance waveform.
 - **Waveform RGB**: Shows the waveform of RGB channels.
 - **RGB Parade**: Visualizes the RGB channels side-by-side.
@@ -53,22 +53,6 @@ pip install -r requirements.txt
 ```
 ---
 
-## How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
-   ```
-
-2. Run the application:
-   ```bash
-   python main.py
-   ```
-
-3. Use the **Control Panel** to configure the plots and the **Plot Panel** to view the results.
-
----
 
 ## Usage Instructions
 1. **Screenshot & ROI**:
