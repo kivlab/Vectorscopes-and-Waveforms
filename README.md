@@ -7,6 +7,11 @@ I may add new features sometime, but for now I just want to use it as is. Feel f
 
 There is also an executable file for windows in the repository. It is the easiest way to use the tool and recommended for everyone who does not want to edit the files/ contribute new features, etc. 
 
+Everything is free. However if you think the interface helps you and your workflow and you want to support this project, I will gladly accept any donations (Even if you only have a symbolic dollar to spare, it is still greatly appreciated.) 
+
+Cheers 
+Julian
+
 ---
 
 ## Features
