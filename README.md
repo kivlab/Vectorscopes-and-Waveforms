@@ -1,6 +1,8 @@
 # Vectorscopes
-If you are looking for quick solution to plot various vector scopes and waveforms feel free to download this repository. I have created an easy to use and very basic user interface to display additional information about your image. If you are used to working with vectorscopes for example from Premiere Pro and you are missing them say in Lightroom Desktop for example, this may be a "good enough" workaround for you. Simply screenshot the image and you can see the respective scopes (YUV, YUV but with RGB color) or waveforms (Luminance, RGB, RGB Parade). You can either manually refresh after you made some changes or work in teh continous mode where everything refreshes automatically. At this stage this has only been a "weekend project" for me and it basically fullfills all my needs. 
+If you are looking for quick solution to plot various vector scopes and waveforms feel free to download this repository. I have created an easy to use and very basic user interface to display additional information about your image. If you are used to working with vectorscopes for example from Premiere Pro and you are missing them say in Lightroom Desktop for example, this may be a "good enough" workaround for you. Simply screenshot the image and you can see the respective scopes (YUV, YUV but with RGB color) or waveforms (Luminance, RGB, RGB Parade). You can either manually refresh after you made some changes or work in continous mode where everything refreshes automatically. 
 
+Disclaimer:
+At this stage this has only been a "weekend project" for me and it basically fullfills all my needs. 
 I may add new features sometime, but for now I just want to use it as is. Feel free to contribute and improve the project. It should be available for the photography community and everybody who finds these features useful in their editing workflow. 
 If it has been helpful for you and you think it may be worth a dollor or more, I am happy to accept donations. 
 
