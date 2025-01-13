@@ -1,6 +1,8 @@
-# PyQt Plot Panel Application
+# Vectorscopes
+If you are looking for quick solution to plot various vector scopes and waveforms feel free to download this repository. I have created a easy to use and very basic user interface to display additional information about your image. If you are used to working with vectorscopes for example from Premiere Pro and you are missing them in Lightroom for example, this may be a "good enough" workaround for you. Simply screenshot the image and you can see the respective scopes (YUV, YUV but with RGB color) or waveforms (Luminance, RGB, RGB Parade). You can either manually refresh after you made some changes or work in teh continous mode where everything refreshes automatically. At this stage this has only been a "weekend project" for me and it basically fullfills all my needs. 
 
-This project is a PyQt-based GUI application that provides a user-friendly interface for visualizing various plots, including vectorscopes and waveforms, using screenshots as input data. The application is designed with modularity in mind, featuring a main plot panel and a control panel for configuring the visualizations.
+I may add new features sometime, but for now I just want to use it as is. Feel free to contribute and improve the project. It should be available for the photography community and everybody who finds these features useful in their editing workflow. 
+If it has been helpful for you and you think it may be worth a dollor or more, I am happy to accept donations. 
 
 ---
 
@@ -62,13 +64,12 @@ pip install PyQt5 matplotlib numpy opencv-python mss
 ---
 
 ## Usage Instructions
-
-1. **Select Plots**: Check the boxes in the Control Panel to choose which plots to display.
-2. **Choose Arrangement**: Select the layout (Vertical, Horizontal, 2x2) from the dropdown.
-3. **Monitor Selection**: Use the spinner to select the active monitor.
-4. **Screenshot & ROI**:
+1. **Screenshot & ROI**:
    - Click **Take Screenshot**.
    - Define the Region of Interest (ROI) by selecting an area on the screen.
+2. **Choose Arrangement**: Select the layout (Vertical, Horizontal, 2x2) from the dropdown.
+3. **Monitor Selection**: Use the spinner to select the active monitor.
+4. **Select Plots**: Check the boxes in the Control Panel to choose which plots to display.
 5. **Continuous Mode**: Toggle continuous mode for live updates.
 6. **Refresh Plots**: Click **Refresh** to manually update the plots.
 
@@ -76,17 +77,7 @@ pip install PyQt5 matplotlib numpy opencv-python mss
 
 ## File Structure
 
-- **main.py**: The main application file containing the GUI logic.
-
----
-
-## Screenshots
-
-### Control Panel
-![Control Panel Screenshot](link_to_image)
-
-### Plot Panel
-![Plot Panel Screenshot](link_to_image)
+- **lightroom_guin.py**: The main application file containing the GUI logic.
 
 ---
 
@@ -96,20 +87,11 @@ Feel free to fork the repository and submit pull requests with enhancements or b
 
 ---
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
 ## Contact
 
 For questions or support, please reach out to:
 
-- Name: Your Name
-- Email: your.email@example.com
-- GitHub: [Your GitHub Profile](https://github.com/yourusername)
+- Name: Julian Ostertag
+- Email: julianostertag@aol.de
 
 ---
-
-Enjoy visualizing data with the PyQt Plot Panel Application!
