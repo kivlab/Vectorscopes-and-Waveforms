@@ -44,6 +44,9 @@ Install dependencies using pip:
 pip install PyQt5 matplotlib numpy opencv-python mss
 ```
 
+```bash
+pip install -r requirements.txt
+```
 ---
 
 ## How to Run
