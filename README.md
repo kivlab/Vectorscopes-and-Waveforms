@@ -4,6 +4,8 @@ If you are looking for quick solution to plot various vector scopes and waveform
 I may add new features sometime, but for now I just want to use it as is. Feel free to contribute and improve the project. It should be available for the photography community and everybody who finds these features useful in their editing workflow. 
 If it has been helpful for you and you think it may be worth a dollor or more, I am happy to accept donations. 
 
+There is also an executable file for windows in the repository. It is the easiest way to use the tool and recommended for everyone who does not want to edit the files/ contribute new features, etc. 
+
 ---
 
 ## Features
@@ -80,8 +82,8 @@ pip install -r requirements.txt
 
 ## File Structure
 
-- **lightroom_guin.py**: The main application file containing the GUI logic.
-
+- **lightroom_gui.py**: The main application file containing the GUI logic.
+- **lightroom_gui.exe**: Executable file for Windows.
 ---
 
 ## Contributing
